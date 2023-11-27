@@ -274,11 +274,15 @@ nav ul li a:active {
 	    justify-content: space-between;
 	}
 	.ad {
-	    font-size: 8px;
+        font-size: 13px;
         font-weight: bold;
+        margin:  0 0 0 10px ;
 	}
     .hg{
         width: 148px;
+    }
+    .hg svg{
+        width: 40px;
     }
     .fab {
         width: 252px;
@@ -297,8 +301,7 @@ nav ul li a:active {
     flex-wrap: wrap;
     align-items: baseline;
 }
-.ke,
-.ke-1{
+.ke{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -326,6 +329,9 @@ nav ul li a:active {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .ce-1 span{
+        margin: 10px 0;
     }
 }
 .fq{
@@ -372,6 +378,7 @@ nav ul li a:active {
 }
 @media (min-width:280px) and (max-width:767px) {
     .fq{
+        margin-top: 40px;
         height: 1025px;
     }
     .ag{
@@ -407,6 +414,7 @@ nav ul li a:active {
 .Frame-18{
     display: flex;
     align-items: center;
+    margin: 100px 0 ;
 }
 .xa{
     display: flex;
@@ -507,12 +515,11 @@ nav ul li a:active {
         flex-wrap: wrap;
         justify-content: space-between;
         padding-top: 35px;
+        margin-bottom: 80px;
     }
     .df{
         font-size: 19px;
         margin: 15px 0;
         font-weight: bold;
     }
-
-
 }
