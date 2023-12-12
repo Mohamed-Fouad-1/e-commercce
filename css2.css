@@ -523,3 +523,103 @@ nav ul li a:active {
         font-weight: bold;
     }
 }
+/*collections*/
+.iav{
+    background-image: url(/collections.photo/Rectangle\ 2.png);
+    height: 400px;
+    background-repeat: round;
+}
+.iav-1{
+    display: none;
+}
+.kp-1{
+    margin:50px 0px 50px 130px;
+}
+.ih{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wj-1{
+    display: flex;
+}
+.mk-2{
+    background:#b9b9b9;
+    width: 100px;
+    height: 2px;
+    margin: 15px  25px;
+}
+.add{
+    margin-left:30px;
+}
+.add-1{
+    margin-left:101px;
+}
+.add-2{
+    margin-left:88px;
+}
+.add-3{
+    margin-left:81px;
+}
+.add-4{
+    margin-left:95px;
+}
+.add-5{
+    margin-left:72px;
+}
+#b-o{
+    border: none;
+}
+.d-1{
+    margin:0 0 50px 821px;
+}
+.p-o{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+
+}
+.t-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title-card{
+    width: 174px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+}
+.price{
+    width: 264px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+@media (min-width:280px) and (max-width:767px) {
+    .iav{
+        display: none;
+    }
+    .iav-1{
+        display: flex;
+        background-image: url(/collections.photo/Main\ Image.png);
+        height: 180px;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 375px;
+        color: #ffffff;
+    }
+    .kp-1{
+        margin: 20px 0 0 10px;
+        font-size: 15px;
+    }
+}
