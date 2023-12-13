@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    width:max-content ;
+}
+header{
+    background:#ffffff;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px ;
+    -webkit-border-radius: 0 0 10px 10px ;
+    -moz-border-radius: 0 0 10px 10px ;
+    -ms-border-radius: 0 0 10px 10px ;
+    -o-border-radius: 0 0 10px 10px ;
+    margin: 0 auto ;
+}
+.logo{
+    width: 120px;
+    margin-top: 8px;
+}
+nav .logo-1 {
+    display: none;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul li a{
+    color:#212526;
+    display: block;
+    margin: 0 2px;
+    font-weight: 600;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius:30px;
+}
+nav ul li a:hover {
+    background:#000000;
+    color:#fff;
+}
+nav ul li a:active {
+    background:#000000;
+}
+.we{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    justify-content: space-between;
+    margin-right: 60px;
+} 
+.ass li{
+    margin-left: 15px;
+}
+.hamburger{
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius:5px;
+    transition: 0.2s;
+}
+.hamburger:hover{
+    background:#ffffff
+}
+.hamburger div{
+    width: 15px;
+    height: 3px;
+    margin: 2px;
+    background:rgb(0, 0, 0);
+
+}
+.wg,
+.eg{
+    display: none;
+}
+@media (min-width:280px) and (max-width:767px) {
+    headar{
+        width: 0;
+        padding: 0 20px;
+    }
+    nav{
+        position: absolute;
+        left:-300px;
+        top:0;
+        z-index: 999;
+        width: 280px;
+        height: 140vh;
+        background-color:#ffffff ;
+        transition: 0.2s;
+        box-shadow: 2px 0 20px 0  rgba(0, 0, 0, 0.5) ;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+    }
+    #nav-check:checked ~ nav{
+        left:0;
+    }
+    nav .logo-1{
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        flex-direction: column;
+        width: 270px;
+    }
+    nav ul li a {
+        margin-bottom:5px ;
+        padding:10px 15px ;
+        border-radius: 5px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+    .hamburger{
+        display: block;
+    } 
+    .we{
+        display: flex;
+        width: 275px;
+        margin-right: 100px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    } 
+    li{
+        color: #ffffff;
+    } 
+    .eo{
+        display: flex;
+        align-items:center;
+        border:#000000 solid 1px;
+        padding: 8px;
+    }
+    .fk{
+        display: flex;
+        align-items:center;
+        padding:8px;
+    }
+    .pm{
+        display: flex;
+        flex-direction: column;
+    }
+    .wg,
+    .eg{
+        display: block;
+        color:#000000;
+    }
+    .eg{
+        font-size: 13px;
+    }
+}
+.iav{
+    background-image: url(/collections.photo/Rectangle\ 2.png);
+    height: 400px;
+    background-repeat: round;
+}
+.iav-1{
+    display: none;
+}
+.kp-1{
+    margin:50px 0px 50px 130px;
+}
+.ih{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wj-1{
+    display: flex;
+}
+.mk-2{
+    background:#b9b9b9;
+    width: 100px;
+    height: 2px;
+    margin: 15px  25px;
+}
+.add{
+    margin-left:30px;
+}
+.add-1{
+    margin-left:101px;
+}
+.add-2{
+    margin-left:88px;
+}
+.add-3{
+    margin-left:81px;
+}
+.add-4{
+    margin-left:95px;
+}
+.add-5{
+    margin-left:72px;
+}
+#b-o{
+    border: none;
+}
+.d-1{
+    margin:0 0 50px 821px;
+}
+.p-o{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+
+}
+.t-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title-card{
+    width: 174px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+}
+.price{
+    width: 264px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.se-1{
+    display:none;
+}
+@media (min-width:280px) and (max-width:767px) {
+    .iav{
+        display: none;
+    }
+    .iav-1{
+        display: flex;
+        background-image: url(/collections.photo/Main\ Image.png);
+        height: 180px;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 375px;
+        color: #ffffff;
+    }
+    .kp-1{
+        margin: 20px 0 20px 10px;
+        font-size: 15px;
+    }
+    .d-1{
+        display: none;
+    }
+    .ih{
+        display: none;
+    }
+    .se-1{
+        display: block;
+    }
+    .w-2{
+        display: flex;
+    }
+    .lm-3{
+        margin-left: 10px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 173px;
+    }
+    .price{
+        width: 97px;
+    }
+    .oy-1{
+        width: 205px;
+        height: 43px;
+        margin: 0px 0px 55px 76px;
+    }
+}
+.Frame-22{
+    background: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+.Frame-21,
+.Frame-13,
+.gw{
+    display: flex;
+    flex-direction: column;
+}
+.cu div{
+    margin-bottom: 15px;
+}
+.df{
+    margin-bottom:24px;
+}
+.gw span{
+    margin-bottom: 10px;
+}
+.ovr{
+    display: flex;
+}
+.ov{
+    width: 215px;
+}
+.Frame-28{
+    display: none;
+}
+@media (min-width:280px) and (max-width:767px) {
+    .Frame-22{
+        display:none;
+    } 
+    .Frame-28{
+        background: #F4F4F4;
+        display:block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 35px;
+        margin-bottom: 80px;
+    }
+    .df{
+        font-size: 19px;
+        margin: 15px 0;
+        font-weight: bold;
+    }
+}
