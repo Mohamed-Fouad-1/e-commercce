@@ -14,6 +14,7 @@ header{
     display: flex;
     align-items:center ;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 40px;
     border-radius: 0 0 10px 10px ;
     -webkit-border-radius: 0 0 10px 10px ;
@@ -31,7 +32,7 @@ nav .logo-1 {
 }
 nav ul {
     display: flex;
-    
+    align-items: center;
 }
 nav ul li a{
     color:#212526;
@@ -85,6 +86,9 @@ nav ul li a:active {
     headar{
         width: 0;
         padding: 0 20px;
+    }
+    header{
+        padding: 20px 10px;
     }
     nav{
         position: absolute;
@@ -165,7 +169,7 @@ nav ul li a:active {
     width: 1127px;
     height: 28px;
     display: flex;
-    margin:0 0 50px  70px;
+    margin:0 0 50px  150px;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -220,9 +224,14 @@ nav ul li a:active {
     border: none;
     font-family: 'Montserrat', sans-serif;
 }
+.b-ott{
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .op-21{
     display: block;
-    width: 180px;
+    width: 201px;
     font-family: 'Montserrat', sans-serif;
 }
 .a-12{
@@ -304,6 +313,7 @@ nav ul li a:active {
     height: 45px;
     margin-left: 80px;
     color: #ffffff;
+    cursor: pointer;
 }
 .Cards-2{
     background-color: #F4F4F4;
@@ -321,7 +331,7 @@ nav ul li a:active {
     background-color: #F4F4F4;
     width: 501px;
     height: 336px;
-    margin-right: 97px;
+    margin-right: 141px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -347,9 +357,10 @@ nav ul li a:active {
     align-items: center;
 }
 .Frame-80{
-    width: 840px;
+    width: 950px;
     height: 434px;
-    margin-left: 236px;
+    margin-left: 359px;
+    margin-bottom: 120px;
 }
 .as-3{
     font-family: 'Prosto One', sans-serif; text-align: center; 
@@ -386,12 +397,163 @@ nav ul li a:active {
     margin-bottom: 50px;
     font-family:'Montserrat', sans-serif;
 }
+.Frame-101{
+    display: none;
+}
 @media (min-width:280px) and (max-width:767px){
     .Frame-80,
-    .Frame-90{
+    .Frame-90,
+    .Frame-93-and-Cards,
+    .ebs{
         display: none;
     }
-    
+    .Frame-101{
+        display: block;
+        width: 362px;
+        /* height: 1338px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .Frame-91{
+        width: 370px;
+        height: 477px;
+    }
+    .asd-7{
+        width: 365px;
+        display: flex;
+        margin:20px 0 0 10px;
+    }
+    .osd{
+        width: 260px;
+        height: 50px;
+        margin: 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .adx{
+        width: 210px;
+        font-family:'Montserrat', sans-serif;
+    }
+    .pc-w{
+        width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pc-w span{
+        display:block;
+        font-size: 20px;
+    }
+    .ml-a{
+        margin: 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .re-m{
+        border: none;
+        background:white;
+        font-weight: bold;
+        font-family:'Montserrat', sans-serif;
+    }
+    .da-w{
+        display: block;
+        font-family:'Montserrat', sans-serif;
+    }
+    .Line-4{
+        background-color: #A0A0A0;
+        width: 310px;
+        height: 2px;
+        margin: 30px;
+    }
+    .obc{
+        width: 355px;
+        margin:0 0 30px 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .obc span{
+        display:block;
+        font-family:'Montserrat', sans-serif;
+    }
+    .k-er{
+        width: 214px;
+        height: 45px;
+        margin-left: 21%;
+        font-family:'Montserrat', sans-serif;
+        background:white ;
+        cursor:pointer;
+    }
+    .Frame-m94{
+        background: #F4F4F4;
+        width: 375px;
+        height: 385px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 35px;
+    }
+    .afc-2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+        margin-left: 10px;
+    }
+    .uar-1{
+        width: 355px;
+        margin:0 0 10px 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .uar-1 span{
+        display: block;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    .is-2{
+        font-size: 22px;
+    }
+    .sam-2{
+        display: block;
+        font-weight: 300;
+        margin-left: 12px;
+    }
+    .oa-3{
+        background: #000000;
+        color: #ffffff;
+        width: 280px;
+        height: 40px;
+        margin: 30px 0 0 42px;
+        font-family:'Montserrat', sans-serif;
+    }
+    .Frame-96{
+        background: #F4F4F4;
+        height: 110px;
+        width: 375px;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .oam{
+        margin-left: 25px;
+    }
+    .Frame-100{
+        background: #F4F4F4;
+        width: 375px;
+        height: 272px;
+        margin-bottom: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .oalp-1{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .oalp-1 span {
+        display: block;
+        width: 345px;
+    }
 }
 .Frame-22{
     background: #F4F4F4;
@@ -430,12 +592,13 @@ nav ul li a:active {
     } 
     .Frame-28{
         background: #F4F4F4;
+        width: 373px;
         display:block;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding-top: 35px;
-        margin-bottom: 80px;
+        padding: 0 10px;
     }
     .df{
         font-size: 19px;

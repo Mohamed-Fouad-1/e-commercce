@@ -165,158 +165,217 @@ nav ul li a:active {
         font-size: 13px;
     }
 }
-.iav{
-    background-image: url(/collections.photo/Rectangle\ 2.png);
-    height: 400px;
-    background-repeat: round;
-}
-.iav-1{
-    display: none;
-}
-.kp-1{
-    margin:50px 0px 50px 130px;
-}
-.ih{
+.Frame-90{
+    width: 1127px;
+    height: 28px;
     display: flex;
+    margin:0 0 138px  290px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.ads{
+    background-color: #A0A0A0;
+    width: 250px;
+    height: 2px;
+}
+.ds-a{
+    font-family: 'Montserrat', sans-serif;
+}
+.Payment{
+    display: flex;
+    justify-content: space-around;
+}
+.Group-31{
+    height: 440px;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+}
+.Group-31 span{
+    font-family: 'Montserrat', sans-serif;
+}
+.de{
+    margin-bottom: 35px;
+    font-size: 22px;
+}
+.sh{
+    margin-bottom: 9px;
+}
+.i-3-7{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 120px;
+    margin-bottom: 110px;
+}
+.i-3-7 span{
+    font-family: 'Montserrat', sans-serif;
+}
+.bi{
+    margin-bottom: 15px;
+}
+.sa{
+    margin-bottom: 45px;
+}
+.co{
+    margin-bottom: 10px;
+}
+.am{
+    margin-bottom: 51px;
+}
+.ed{
+    color: #C3B212;
+    cursor: pointer;
+}
+.prae{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.pay{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Rectangle-134{
+    width: 360px;
+    height: 290px;
+    border: #A0A0A0 solid 2px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
-.wj-1{
+.cre{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.viz{
     display: flex;
+    justify-content: space-evenly;
+    margin: 0 20px;
 }
-.mk-2{
-    background:#b9b9b9;
-    width: 100px;
-    height: 2px;
-    margin: 15px  25px;
-}
-.add{
-    margin-left:30px;
-}
-.add-1{
-    margin-left:101px;
-}
-.add-2{
-    margin-left:88px;
-}
-.add-3{
-    margin-left:81px;
-}
-.add-4{
-    margin-left:95px;
-}
-.add-5{
-    margin-left:72px;
-}
-#b-o{
-    border: none;
-}
-.d-1{
-    margin:0 0 50px 821px;
-}
-.p-o{
-    display: flex;
-    justify-content: space-between;
-    width: 950px;
-
-}
-.t-p{
+.amd{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* /* .la-mf{
-    color:#212526;
+.mhd{
+    width: 249px;
+    display: flex;
+    justify-content: space-between;
+}
+.numb{
     display: block;
-    margin: 0 2px;
+    margin: 7px 52px;
     font-weight: 600;
-    padding: 8px 18px;
-    transition: 0.2s;
-    border-radius:30px;
-} */
-li a :hover,
-li a:active {
-    color:black;
-} 
-.title{
-    display: flex;
-    justify-content: center;
-    
+    font-family: 'Montserrat', sans-serif;
 }
-.title-card{
-    width: 174px;
-    height: 48px;
+.exc{
+    margin-bottom: 10px;
+}
+.ex{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 60px;
+}
+.cv{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.fp{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 60px;
+}
+.li-2{
+    display: flex;
+}
+.Line-7{
+    width: 107px;
+    height: 1px;
+    background: #A0A0A0;
+    margin-left: 58px;
+}
+.adv{
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 356px;
+    height: 45px;
+    margin-top: 35px;
+    color: #000000;
+    cursor: pointer;
+}
+.Group-32{
+    border: #A0A0A0 solid 2px;
+    width: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 6px;
-    color: #000;
+    height: 56px;
+    margin:35px 0 ;
+    cursor: pointer;
 }
-.price{
-    width: 264px;
-    height: 24px;
+.Cards-1{
+    background-color: #F4F4F4;
+    width: 501px;
+    height: 424px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #000;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.se-1{
-    display:none;
+.afc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    margin-left: 25px;
 }
-@media (min-width:280px) and (max-width:767px) {
-    .iav{
-        display: none;
-    }
-    .iav-1{
-        display: flex;
-        background-image: url(/collections.photo/Main\ Image.png);
-        height: 180px;
-        align-items: baseline;
-        justify-content: space-between;
-        width: 375px;
-        color: #ffffff;
-    }
-    .kp-1{
-        margin: 20px 0 20px 10px;
-        font-size: 15px;
-    }
-    .d-1{
-        display: none;
-    }
-    .ih{
-        display: none;
-    }
-    .se-1{
-        display: block;
-    }
-    .w-2{
-        display: flex;
-    }
-    .lm-3{
-        margin-left: 10px;
-    }
-    .title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 173px;
-    }
-    .price{
-        width: 97px;
-    }
-    .oy-1{
-        width: 205px;
-        height: 43px;
-        margin: 0px 0px 55px 76px;
-    }
+.Frame-89{
+    width: 452px;
+    height: 261px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.qp-3{
+    width: 448px;
+    display: flex;
+    justify-content: space-between;
+}
+.qp-3 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.tou-te{
+    font-family: 'Montserrat', sans-serif;
+}
+.Line-2{
+    width: 415px;
+    height: 3px;
+    background-color: #A0A0A0;
+    margin-left: 14px;
+}
+.ayw{
+    display: block;
+    width: 255px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.far-1{
+    background-color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    width: 454px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 35px;
+    color: #ffffff;
+    cursor: pointer;
 }
 .Frame-22{
     background: #F4F4F4;
     display: flex;
     justify-content: space-around;
     padding-top: 35px;
+    margin-top: 125px;
 }
 .Frame-21,
 .Frame-13,
@@ -338,26 +397,4 @@ li a:active {
 }
 .ov{
     width: 215px;
-}
-.Frame-28{
-    display: none;
-}
-@media (min-width:280px) and (max-width:767px) {
-    .Frame-22{
-        display:none;
-    } 
-    .Frame-28{
-        background: #F4F4F4;
-        display:block;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 35px;
-        padding: 0 10px;
-    }
-    .df{
-        font-size: 19px;
-        margin: 15px 0;
-        font-weight: bold;
-    }
 }

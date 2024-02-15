@@ -9,11 +9,13 @@
 img{
     width:max-content ;
 }
+
 header{
     background:#ffffff;
     display: flex;
     align-items:center ;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 40px;
     border-radius: 0 0 10px 10px ;
     -webkit-border-radius: 0 0 10px 10px ;
@@ -31,7 +33,7 @@ nav .logo-1 {
 }
 nav ul {
     display: flex;
-    
+    align-items: center;
 }
 nav ul li a{
     color:#212526;
@@ -85,6 +87,9 @@ nav ul li a:active {
     headar{
         width: 0;
         padding: 0 20px;
+    }
+    header{
+        padding: 20px 10px;
     }
     nav{
         position: absolute;
@@ -165,8 +170,9 @@ nav ul li a:active {
     margin: 0 0 100px 55px;
 }
 .fc{
-    width: 1126px;
+    width: 1345px;
     display: flex;
+    justify-content: space-between;
 }
 .fc img{
     width: 456px;
@@ -175,9 +181,11 @@ nav ul li a:active {
 .Frame-67{
     width: 574px;
     margin-left: 130px;
+    
 }
 .ipp{
     margin: 0 0 35px 0;
+    font-size: 14px;
 }
 .wd{
     display: flex;
@@ -188,8 +196,8 @@ nav ul li a:active {
 .oa{
     display: flex;
     justify-content: space-between;
-    width: 450px;
-    margin-bottom: 25px;
+    width: 429px;
+    margin-bottom: 21px;
     height: 24px;
 }
 .ce-1{
@@ -203,16 +211,21 @@ nav ul li a:active {
 .ka-9{
     display: block;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 21px;
     height: 40px;
 }
 .m-ow{
-    margin-bottom:25px;
+    margin-bottom:21px;
     font-size:36px;
     height: 44px;
 }
+.m-ow span{
+    font-family: 'Prosto One', sans-serif;
+}
 .w-31{
-    margin-bottom: 6px;
+    margin-bottom: 21px;
+    font-size: 15px;
+        font-family:'Montserrat', sans-serif;
 }
 .n-b{
     height:149.74px;
@@ -246,10 +259,19 @@ nav ul li a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.ah-1{
+    margin:30px 0 30px;
+    font-size: 32px;
+    font-family:'Montserrat', sans-serif;
 }
 .bu-tt{
     color: white;
     font-family:'Montserrat', sans-serif;
+}
+.Frame-78 span{
+    font-family:'Montserrat', sans-serif ;
 }
 .lo-0{
     display: none;
@@ -330,7 +352,7 @@ nav ul li a:active {
 }
 .Frame-79{
     background-color: #E4E4E4;
-    width: 1343px;
+    width:1688px;
     height: 325px;
     display: flex;
     align-items: center;
@@ -369,7 +391,7 @@ nav ul li a:active {
 }
 .f-on{
     font-size:38px;
-    font-weight:100;
+    font-weight:300;
     margin-bottom: 30px;
 }
 .Frame-78{
@@ -436,13 +458,16 @@ nav ul li a:active {
     }
 }
 .Frame-80{
-    width: 840px;
+    width: 950px;
     height: 434px;
-    margin-left: 236px;
+    margin-left: 359px;
+    margin-bottom: 120px;
 }
 .as-3{
     font-family: 'Prosto One', sans-serif; text-align: center; 
     margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 32px;
 }
 .q-7{
     display: flex;
@@ -485,6 +510,7 @@ nav ul li a:active {
     .Frame-82{
         display: block;
         margin-bottom: 50px;
+        height: 646px;
     }
     .c-w{
         width: 362px;
@@ -542,7 +568,7 @@ nav ul li a:active {
         flex-wrap: wrap;
         justify-content: space-between;
         padding-top: 35px;
-        margin-bottom: 80px;
+        padding: 0 10px;
     }
     .df{
         font-size: 19px;
