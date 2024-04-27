@@ -177,8 +177,10 @@ nav ul li a:active {
     margin-right: 75px;
 }
 .va{
-    font-size: 43px;
-    font-weight: 600;
+    font-size: 36px;
+        font-family: 'Prosto One', sans-serif;
+    width: 456px;
+    height: 88px;
 }
 .wc{
     font-size: 20px;
@@ -214,6 +216,8 @@ nav ul li a:active {
     .va{
         font-size: 30px;
         font-weight: 600;
+        width: 352px;
+        margin-left: -10px;
     }
     .wc{
         font-size: 14px;
@@ -386,14 +390,20 @@ nav ul li a:active {
         height: 1025px;
     }
     .ag{
+        height: 839px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
-    .az,
-    .md{
+    .az{
         display: flex;
         justify-content: flex-start;
         width: 375px;
+    }
+    .md{
+        width: 375px;
+        display: flex;
+        flex-direction: row-reverse;
     }
     .md img,
     .az img{
